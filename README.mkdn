@@ -1,0 +1,26 @@
+# Hourchange
+
+Hourchange is a small program that reminds the user when the Daylight saving
+time begins and when it ends.
+
+# How to compile?
+
+You will need the `make` and `gcc` program to compile the C file. Please refer
+to your distro's repository for more information.
+
+Then, just invoke `make`.
+
+# How to use it?
+
+Basically, the program just displays a small alert in the terminal when it is
+called.
+
+The simplest way to be notified when it is necessary is to add it to your
+`.bashrc`:
+
+```bash
+/path/to/hourchange
+```
+
+If you wish to get rid of the path, the best way may be to copy the executable
+to `/usr/bin` for example.
