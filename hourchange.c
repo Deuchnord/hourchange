@@ -25,20 +25,20 @@ int main()
 	switch(lastOct)
 	{
 		case 0:
-			printf("\x1b[31;1mCette nuit, on change d'heure ! À 3h, il sera 2h !\e[m\n\n");
+			printf("Cette nuit, on change d'heure ! À 3h, il sera 2h !\n\n");
 			break;
 		case 1:
-			printf("\x1b[31;1mCette nuit, on a changé d'heure !\nReculez vos horloges d'une heure, il est %dh%c%d !\e[m\n\n", timeinfo->tm_hour, zero, timeinfo->tm_min);
+			printf("Cette nuit, on a changé d'heure !\nReculez vos horloges d'une heure, il est %dh%c%d !\n\n", timeinfo->tm_hour, zero, timeinfo->tm_min);
 			break;
 	}
 
 	switch(lastApr)
 	{
 		case 0:
-			printf("\x1b[31:1mCette nuit, on change d'heure ! À 2h, il sera 3h !\e[m\n\n");
+			printf("Cette nuit, on change d'heure ! À 2h, il sera 3h !\n\n");
 			break;
 		case 1:
-			printf("\x1b[31;1mCette nuit, on a changé d'heure !\nAvancez vos horloges d'une heure, il est %dh%c%d !\e[m\n\n", timeinfo->tm_hour, zero, timeinfo->tm_min);
+			printf("Cette nuit, on a changé d'heure !\nAvancez vos horloges d'une heure, il est %dh%c%d !\n\n", timeinfo->tm_hour, zero, timeinfo->tm_min);
 			break;
 	}
 
